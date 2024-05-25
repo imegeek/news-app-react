@@ -1,0 +1,37 @@
+.options {
+	margin: 20px 40px;
+	/* background-color: rgb(102, 102, 102); */
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.news-options {
+	user-select: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.news-types {
+	display: flex;
+	gap: 20px;
+}
+
+.type-item.active {
+	border: 1.5px solid white;
+}
+
+.news-types span {
+	cursor: pointer;
+	padding: 4px 8px;
+	/* width: 80px; */
+	text-align: center;
+	border-radius: 20px;
+	background-color: tomato;
+}
+
+.category {
+	display: flex;
+	gap: 20px;
+}
